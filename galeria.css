@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    margin: 0%;
+}
+
+.b-section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.b-img {
+    width: calc(25% - 40px);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.b-img h2 {
+    color: #9E3501;
+    font-size: 50px;
+}
+
+.b-img p {
+    margin: 0 0 30px;
+    font-size: 35px;
+    color: #707072;
+}
+
+.b-img span {
+    font-weight: bold;
+    font-size: 50px;
+}
